@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #d7e48d;
+}
+
+.header {
+    height: 809px;
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+/* banner styles */
+.banner {
+   text-align: right;
+    display: flex;
+   
+   padding-left: 1100px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+   padding-top: 100px;
+  ;
+}
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    padding-top: 10px;
+ 
+    
+}
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/*this is section 1*/
+.section-1{
+    margin-top: 130px;
+    
+    border-radius: 10px;
+    
+}
+
+/*this is div 1*/
+.my-failures{
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-failures-title{
+font-weight: 100px;
+padding-top: 230px;
+margin-left: 60px;
+font-size: 40px;
+
+}
+
+.my-failures-description{
+    padding-top: 20px;
+    
+    width: 416px;
+    
+    left: 919px;
+    top: 1284px;
+    
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 60px;
+}    
+
+/* this is table*/
+table{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/*this is td right description*/
+.td-right-description{
+   
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/*this is section 2*/
+.section-2{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+
+/* this is section-2-title*/
+.section-2-title{
+    margin-top: 150px;
+    padding: 51px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+
+/* this log in section */
+
+.log-in-section{
+    margin-top: 200px;
+    background-image: linear-gradient(to right,rgb(43, 189, 233),
+    rgb(0,0,0,0));
+    border-radius: 10px;
+    background-color: #757575;
+
+}
+
+/* this is log in title */
+ .log-in-title{ 
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #c1eafa;
+}
+
+
+/* this log in  card */
+.join-card{
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+/* this is log in input */
+
+.log-in-input-email{
+    margin-left: 300px;
+    margin-top: 100px;
+    height: 40px;
+    border: 3px solid #c4f808;
+    border-radius: 5px;
+    font-size: 25px;
+  
+   color: #fcfcfc;
+    
+}
+
+/* this is input password */
+.log-in-input-password{
+    margin-left: 300px;
+    margin-top: 20px;
+    height: 40px;
+    border: 3px solid #c4f808;
+    border-radius: 5px;
+    font-size: 25px;
+  
+   color: #fcfcfc;
+    
+}
+
+/* this is log in btn */
+.log-btn{
+    margin-left: 270px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    color:#ceeeaa;
+    font-weight: 700;
+    font-size: 30px;
+    border: 0;
+    border-radius: 5px;
+    background: #f7f7f700;
+
+}
+
+
+
+
+
+
+
+
+/* this is my plan*/
+
+.plan-container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+/*this is skill-img*/
+.skill-img{
+    padding-left: 25px;
+    text-align: center;
+}
+
+/*this is skill-title*/
+.skill-title{
+    font-weight: 700;
+font-size: 30px;
+text-align: center;
+padding: 10px;
+}
+
+/*this is skill-description*/
+.skil-description{
+    color: #757575;
+    font-weight: 300;
+font-size: 25px;
+text-align: center;
+padding: 10px;
+}
+
+
+/* this is section 3 */
+.section-3{
+    margin-top: 150px;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2216.3px;
+background-image: linear-gradient(to right,rgb(43, 189, 233),
+    rgb(0,0,0,0)),url('images/watch.png');
+
+}
+
+
+/* this is  section title*/
+.section-3-title{
+   padding-top: 59px;
+   margin-left: 64px;
+    font-weight: 700;
+font-size: 40px;
+
+
+}
+
+.section-3-btn{
+    margin-top: 15px;
+    margin-left: 64px;
+    width: 160px;
+height: 64px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+border: 0;
+border-radius: 5px;
+background: #c1eafa;
+}
+
+
+
+
+
+
+/* this is  footer */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #141414;
+    padding: 130px 200px;
+    margin-top: 200px;
+
+}
+
+.section-title-1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 10px;
+    color: white;
+    margin-left: 60px;
+}
+
+
+.section-title-2{
+  
+    font-weight: 600;
+      font-size: 25px;
+    padding-left: 10px;
+    color: white;
+   
+}
+
+
+.section-description{
+    font-weight: 400;
+    font-size: 16px;
+    width: 485px;
+    padding: 10px;
+    color: white;
+    margin-left: 60px;
+}
+
+.contact-btn{
+    margin-top: 15px;
+    
+    width: 160px;
+height: 64px;
+color:#F15B22;
+font-weight: 700;
+font-size: 20px;
+border: 0;
+border-radius: 5px;
+background: #ebece5;
+}
+
+
+
+
+.footer-input{
+   margin-top: 20px;
+    height: 40px;
+    border: 1px solid #fcfcfc;
+    border-radius: 5px;
+    font-size: 25px;
+   background-color: #141414;
+   color: #fcfcfc;
+}
+
+.contact a{
+    text-decoration: none;
+}
